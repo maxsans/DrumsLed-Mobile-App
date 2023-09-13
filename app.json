@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "icon": "./assets/icon.png",
+    "name": "tunes",
+    "slug": "tunes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "@config-plugins/react-native-ble-plx",
+        {
+          "isBackgroundEnabled": true,
+          "modes": [
+            "peripheral",
+            "central"
+          ],
+          "bluetoothAlwaysPermission": "Allow ${PRODUCT_NAME} to connect to bluetooth devices"
+        }
+      ]
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "image": "./assets/icon.png"
+    },
+    "ios": {
+      "supportedTablet": true,
+      "bundleIdentifier": "com.AppMCM.tunes"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png"
+      },
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT"
+      ],
+      "package": "com.AppMCM.tunes"
+    },
+    "web": {
+      "favicon": "./assets/icon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1f49e5f1-8bcd-4ea1-b6e4-a2546e753c3f"
+      }
+    }
+  }
+}
