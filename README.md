@@ -1,6 +1,12 @@
-# DrumsLed - React Native Mobile App
+# ![logo_App](./screens/Logo32_New.png) DrumsLed - React Native Mobile App
 
 DrumsLed is a React Native mobile application that allows you to control LED lights on a drum set. The primary purpose of this app is to detect when a drum is struck and illuminate LEDs accordingly. The communication between the mobile app and the drum set is established via Bluetooth Low Energy (BLE). The drum set, equipped with ESP32 and piezo sensors, detects drum strikes, and the mobile app controls LED animations and colors.
+
+
+## App Store
+
+You can find the application on [Google Play](https://play.google.com/store/apps/details?id=com.AppMCM.tunes&pli=1). However, our application is not available on other app stores.
+
 
 ## Embedded Application
 
@@ -8,9 +14,11 @@ The embedded application responsible for interfacing with the ESP32 and controll
 
 Please refer to the [DrumsLed Embedded App repository](https://github.com/maxsans/DrumsLed-Embedded-App) for details regarding the embedded system.
 
-## App Store
 
-You can find the application on [Google Play](https://play.google.com/store/apps/details?id=com.AppMCM.tunes&pli=1). However, our application is not available on other app stores.
+## Mobile Application Features
+
+The DrumsLed mobile application consists of three main screens:
+
 
 ### 1. Main Configuration Screen
 
@@ -26,6 +34,7 @@ You can find the application on [Google Play](https://play.google.com/store/apps
 
 - The Configuration screen enables users to manage the communication between the mobile app and the drum set via Bluetooth Low Energy.
 - Users can control and configure various aspects of the Bluetooth communication process.
+
 
 ## Data Format
 
@@ -52,6 +61,7 @@ Data between the mobile app and the drum set is exchanged in JSON format. Below 
 ]
 ```
 
+
 ## LED Animations and Color Settings
 
 | Animation           | Value | Max Colors |
@@ -66,7 +76,18 @@ Data between the mobile app and the drum set is exchanged in JSON format. Below 
 At startup, the default LED color for all drums is white, and the default animation is "Lumière."
 
 
-## Screens
+## LED Animations and Color Settings
 
 ![alt text](https://github.com/maxsans/DrumsLed-Mobile-App/blob/main/assets/Presentation/Accueil.png?raw=true)
 
+
+## Future
+
+We are currently developing a new ecosystem to enhance your experience. This includes:
+
+- A new cross-platform application
+- An improved design
+- A new transmission protocol
+- An updated version of the embedded software
+
+Stay tuned for these exciting updates!
