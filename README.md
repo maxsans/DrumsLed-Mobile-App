@@ -76,7 +76,7 @@ Data between the mobile app and the drum set is exchanged in JSON format. Below 
 At startup, the default LED color for all drums is white, and the default animation is "Lumière."
 
 
-## LED Animations and Color Settings
+## Overview
 
 ![alt text](https://github.com/maxsans/DrumsLed-Mobile-App/blob/main/assets/Presentation/Accueil.png?raw=true)
 
