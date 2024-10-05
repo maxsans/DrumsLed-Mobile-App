@@ -8,9 +8,9 @@ The embedded application responsible for interfacing with the ESP32 and controll
 
 Please refer to the [DrumsLed Embedded App repository](https://github.com/maxsans/DrumsLed-Embedded-App) for details regarding the embedded system.
 
-## Mobile Application Features
+## App Store
 
-The DrumsLed mobile application consists of three main screens:
+You can find the application on [Google Play](https://play.google.com/store/apps/details?id=com.AppMCM.tunes&pli=1). However, our application is not available on other app stores.
 
 ### 1. Main Configuration Screen
 
