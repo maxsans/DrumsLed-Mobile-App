@@ -1,4 +1,4 @@
-# ![logo_App](./screens/Logo32_New.png) DrumsLed - React Native Mobile App
+# ![logo_App](./screens/Logo32_New.png) Tunes(DrumsLed) - React Native Mobile App
 
 DrumsLed is a React Native mobile application that allows you to control LED lights on a drum set. The primary purpose of this app is to detect when a drum is struck and illuminate LEDs accordingly. The communication between the mobile app and the drum set is established via Bluetooth Low Energy (BLE). The drum set, equipped with ESP32 and piezo sensors, detects drum strikes, and the mobile app controls LED animations and colors.
 
